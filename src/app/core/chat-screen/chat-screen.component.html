@@ -1,0 +1,41 @@
+<header class="fixed-top">
+    <div class="header-center">
+        <div class="d-flex">
+            <div class="chat-icon" (click)="homescreen();">
+                <i class="pi pi-chevron-left"></i>
+            </div>
+            <div class="chat-image">
+                <img src="../../../assets/image/chat_images/av1.svg" class="">
+            </div>
+            <div class="chat-title">
+                <h1 class="mb-0 main-title">Operator</h1>
+                <h6 class="sub-title">Bot</h6>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<div class="container main-body">
+    <ul class="nav d-block">
+        <li class="list-item" @fade *ngFor="let data of intercomText">
+            <div class="text-{{data.direction}}">
+                <div class="message-{{data.mode}}">
+                    <p class="message-content" [innerHtml]="data.message">
+
+                    </p>
+                </div>
+            </div>
+        </li>
+        <li class="list-item text-end">
+            <div class="typing message-outcome">
+                <div class="bubble">
+                    <div class="ellipsis dot_1"></div>
+                    <div class="ellipsis dot_2"></div>
+                    <div class="ellipsis dot_3"></div>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+</div>

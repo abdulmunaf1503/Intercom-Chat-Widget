@@ -1,0 +1,114 @@
+<header class="bg_color">
+    <div class="container px-4">
+        <div class="row">
+            <div class="col-12">
+                <div class="mt-4">
+                    <img src="../../../assets/image/icons/icons8-intercom-48.png" class="intercom_icon">
+                    <h1 class="text-white mt-3">
+                        Hi
+                        <img src="../../../assets/image/icons/Waving_Hand.png" class="waving-hand wave">
+                    </h1>
+                    <h6 class="text-white font-size-sm">We help your business grow by connecting you to yours customers.
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="main-body">
+    <div class="container">
+        <div class="card mb-4 border-top border-bottom">
+            <div class="card-body p-0">
+                <h6 class="px-3 pt-3 pb-1 font-size-md font-weight-600">
+                    Your conversations
+                </h6>
+                <ul class="nav" @filterAnimation>
+                    <li class="nav-item widget active" (click)="chatscreen()">
+                        <div class="d-flex">
+                            <div class="widget-image">
+                                <img src="../../../assets/image/chat_images/av1.svg" class="">
+                            </div>
+                            <div class="widget-text">
+                                <h6 class="main-text mb-1">
+                                    Operator
+                                    <span class="">
+                                        &#x2022;
+                                    </span> 1d ago
+                                </h6>
+                                <h6 class="sub-text mb-1">
+                                    Operator : Glad to see you're checking out the app store Can I help you out with anything?
+                                </h6>
+                            </div>
+                            <div class="widget-icon">
+                                <i class="pi pi-chevron-right"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item widget" (click)="chatscreen()">
+                        <div class="d-flex">
+                            <div class="widget-image">
+                                <img src="../../../assets/image/chat_images/av4.svg" class="">
+                            </div>
+                            <div class="widget-text">
+                                <h6 class="main-text mb-1">
+                                    Sam
+                                    <span class="">
+                                        &#x2022;
+                                    </span> 1d ago
+                                </h6>
+                                <h6 class="sub-text mb-1">
+                                    Hi there <img src="../../../assets/image/icons/Waving_Hand.png" class="waving-hand"> Interested in learning morning
+                                </h6>
+                            </div>
+                            <div class="widget-icon">
+                                <i class="pi pi-chevron-right"></i>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <hr class="break-line">
+                <div class="px-3 pt-1 pb-3">
+                    <div class="sent-button">
+                        <button type="button" class="btn btn-outline-primary rounded-pill" (click)="chatscreen()">
+                            <img src="../../../assets/image/icons/icons8-sent-30.png">
+                            Send us a message
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="card mb-4 border-top border-bottom">
+            <div class="card-body">
+                <h6 class="font-size-md font-weight-600">
+                    Find your answer now
+                </h6>
+                <div class="form-group">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder=" Search our articles">
+                        <button class="btn btn-primary" type="submit">
+                            <i class="pi pi-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-6 border-top border-bottom">
+            <div class="card-body">
+                <h6 class="font-size-md font-weight-600">
+                    Ask An Expert
+                </h6>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="blogs">
+                            <img src="../../../assets/image/blogs/bloggers_chatbot.jpg" class="img-fluid">
+                            <h6 class="font-size-sm font-weight-600 mt-1">
+                                Chatbots for Bloggers : How Can Bloggers Make the Most of Chatbots?
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

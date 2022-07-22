@@ -1,0 +1,139 @@
+.bg_color {
+    background-image: linear-gradient(340deg, #19009c, #3b17f7);
+    background-color: #3b17f7;
+    height: 240px;
+    width: 100%;
+}
+
+.intercom_icon {
+    width: 36px;
+}
+
+.bg_color img.waving-hand {
+    width: 32px;
+    margin: -15px 5px -5px;
+}
+
+.main-body {
+    position: absolute;
+    width: 100%;
+    margin-top: -65px;
+}
+
+.card {
+    box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 19%), 0px 2px 6px 0px rgb(0 0 0 / 23%);
+}
+
+.widget {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.widget.active {
+    background-color: #e5e9fe;
+}
+
+.widget-image {
+    padding: 0px 15px;
+}
+
+.widget-image img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.widget-text {
+    padding: 2.5px 0px;
+}
+
+.widget-text .main-text {
+    font-size: 13px;
+    color: #8a8b92;
+}
+
+.widget-text .sub-text {
+    font-size: 13px;
+    width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+.widget-text .sub-text img {
+    width: 14px;
+    margin: 0 5px 0 3px;
+}
+
+.widget-icon {
+    padding: 12.5px 30px 10px 15px;
+    margin-left: auto;
+}
+
+.widget-icon i {
+    color: #3b17f7;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.break-line {
+    width: 90%;
+    margin: 0px auto 10px;
+    color: #a7a7a7;
+}
+
+.sent-button button {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.sent-button img {
+    width: 18px;
+    margin: 0px 5px;
+}
+
+.blogs img {
+    border-radius: 5px;
+}
+
+// hand wave 
+.wave {
+    animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;
+    /* Change to speed up or slow down */
+    animation-iteration-count: 3;
+    /* Never stop waving :) */
+    transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate( 0.0deg)
+    }
+    10% {
+        transform: rotate(14.0deg)
+    }
+    /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+        transform: rotate(-8.0deg)
+    }
+    30% {
+        transform: rotate(14.0deg)
+    }
+    40% {
+        transform: rotate(-4.0deg)
+    }
+    50% {
+        transform: rotate(10.0deg)
+    }
+    60% {
+        transform: rotate( 0.0deg)
+    }
+    /* Reset for the last half to pause */
+    100% {
+        transform: rotate( 0.0deg)
+    }
+}

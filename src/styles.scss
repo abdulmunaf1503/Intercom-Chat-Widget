@@ -1,0 +1,72 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+}
+
+// Border
+.border-top {
+    border-top: 2px solid #97a4f7 !important;
+}
+
+.font-size-xs {
+    font-size: 0.8rem;
+}
+
+.font-size-sm {
+    font-size: 0.9rem;
+}
+
+.font-size-md {
+    font-size: 1rem;
+}
+
+.font-size-xl {
+    font-size: 1.2rem;
+}
+
+// Font Weight
+.font-weight-400 {
+    font-weight: 400;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+.font-weight-800 {
+    font-weight: 800;
+}
+
+.font-weight-900 {
+    font-weight: 900;
+}
+
+// Place Holder Font Size
+input,
+input::placeholder {
+    font-size: 14px;
+    font-weight: 600;
+    color: darkgray;
+}
+
+// Button 
+.btn-primary {
+    background-color: #3b17f7;
+    border-color: #3b17f7;
+    color: #ffffff;
+}
+
+// margin
+.mb-6 {
+    margin-bottom: 4rem;
+}
